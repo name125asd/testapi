@@ -7,9 +7,9 @@ namespace WebApplication5.Models
 {
     public class Request
     {
-        public string user;
+        public string user { get; set; }
 
-        public string pass;
+        public string pass { get; set; }
 
     }
 }

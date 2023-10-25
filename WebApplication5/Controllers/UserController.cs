@@ -4,13 +4,13 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Newtonsoft.Json;
 using NLog;
 using WebApplication5.Models;
-using Newtonsoft.Json;
 
 namespace WebApplication5.Controllers
 {
-    public class ValuesController : ApiController
+    public class UserController : ApiController
     {
 
         private static Logger logger = LogManager.GetCurrentClassLogger();
@@ -30,8 +30,8 @@ namespace WebApplication5.Controllers
         // POST api/values
         public string Post([FromBody] Request value)
         {
-                string json = "";
-            try 
+            string json = "";
+            try
             {
                 logger.Info($"user {value.user}  pass {value.pass}");
 
@@ -59,9 +59,9 @@ namespace WebApplication5.Controllers
 
 
                 json = JsonConvert.SerializeObject(returnJson);
-             
-            } 
-            catch (Exception ex)             
+
+            }
+            catch (Exception ex)
             {
                 logger.Error($"Exception {ex.Message} ");
             }
@@ -78,5 +78,6 @@ namespace WebApplication5.Controllers
         public void Delete(int id)
         {
         }
+
     }
 }

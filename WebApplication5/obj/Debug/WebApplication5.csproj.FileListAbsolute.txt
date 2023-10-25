@@ -83,3 +83,5 @@ C:\Users\MaMeaw\source\repos\WebApplication5\WebApplication5\obj\Debug\WebApplic
 C:\Users\MaMeaw\source\repos\WebApplication5\WebApplication5\obj\Debug\WebApplication5.csproj.CopyComplete
 C:\Users\MaMeaw\source\repos\WebApplication5\WebApplication5\obj\Debug\WebApplication5.dll
 C:\Users\MaMeaw\source\repos\WebApplication5\WebApplication5\obj\Debug\WebApplication5.pdb
+C:\Users\MaMeaw\source\repos\WebApplication5\WebApplication5\bin\NLog.dll
+C:\Users\MaMeaw\source\repos\WebApplication5\WebApplication5\bin\NLog.xml

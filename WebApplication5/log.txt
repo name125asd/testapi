@@ -1,0 +1,21 @@
+2023-10-25 09:44:56.7693|INFO|WebApplication5.Controllers.ValuesController|This is an informational message.
+2023-10-25 09:47:02.1745|INFO|WebApplication5.Controllers.ValuesController|user nut  pass name
+2023-10-25 09:52:03.5969|INFO|WebApplication5.Controllers.ValuesController|user nut  pass name
+2023-10-25 09:52:04.9153|INFO|WebApplication5.Controllers.ValuesController|user nut  pass name
+2023-10-25 09:52:19.5773|ERROR|WebApplication5.Controllers.ValuesController|Exception นี่คือข้อผิดพลาดทดสอบ 
+2023-10-25 09:57:53.2521|INFO|WebApplication5.Controllers.ValuesController|user nut  pass name
+2023-10-25 09:57:53.2801|INFO|WebApplication5.Controllers.ValuesController|user nut  pass name
+2023-10-25 09:57:53.2801|INFO|WebApplication5.Controllers.ValuesController|user nut  pass name
+2023-10-25 09:57:53.2801|INFO|WebApplication5.Controllers.ValuesController|user nut  pass name
+2023-10-25 10:11:31.6298|INFO|WebApplication5.Controllers.ValuesController|user nut  pass name
+2023-10-25 10:11:31.6558|INFO|WebApplication5.Controllers.ValuesController|user nut  pass name
+2023-10-25 10:11:31.6558|INFO|WebApplication5.Controllers.ValuesController|user nut  pass name
+2023-10-25 10:11:31.6558|INFO|WebApplication5.Controllers.ValuesController|user nut  pass name
+2023-10-25 10:13:30.3255|INFO|WebApplication5.Controllers.ValuesController|user nut  pass name
+2023-10-25 10:13:30.3535|INFO|WebApplication5.Controllers.ValuesController|user nut  pass name
+2023-10-25 10:13:30.3535|INFO|WebApplication5.Controllers.ValuesController|user nut  pass name
+2023-10-25 10:13:30.3535|INFO|WebApplication5.Controllers.ValuesController|user nut  pass name
+2023-10-25 10:18:31.9708|INFO|WebApplication5.Controllers.ValuesController|user nut  pass name
+2023-10-25 10:18:32.0058|INFO|WebApplication5.Controllers.ValuesController|user nut  pass name
+2023-10-25 10:18:32.0058|INFO|WebApplication5.Controllers.ValuesController|user nut  pass name
+2023-10-25 10:18:32.0058|INFO|WebApplication5.Controllers.ValuesController|user nut  pass name
