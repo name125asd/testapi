@@ -44,9 +44,8 @@ namespace WebApplication5.Controllers
                 logger.Info($"user {value.user}  pass {value.pass}");
 
                 Response returnJson = new Response();
-                Address addrfffffess = new Address();
-                Grades grade = new Grades();
-
+                Response.Address addrfffffess  = new Response.Address();
+                // Address addrfffffess = new Address();
                 returnJson.name = "Alice Johnson";
                 returnJson.age = 28;
                 returnJson.email = "alice@example.com";

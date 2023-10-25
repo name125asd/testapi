@@ -28,10 +28,12 @@ namespace WebApplication5.Controllers
         }
 
         // POST api/values
-        public string Post([FromBody] Request value)
+        public Response Post([FromBody] Request value)
         {
             string json = "";
+            Response returnJson = new Response();
             try
+
             {
                 logger.Info($"user {value.user}  pass {value.pass}");
 
@@ -42,10 +44,8 @@ namespace WebApplication5.Controllers
                 logger.Info($"user {value.user}  pass {value.pass}");
                 string getUser3 = value.user;
                 logger.Info($"user {value.user}  pass {value.pass}");
-
-                Response returnJson = new Response();
-                Address addrfffffess = new Address();
-                Grades grade = new Grades();
+                Response.Address addrfffffess = new Response.Address();
+                //   Address addrfffffess = new Address();
 
                 returnJson.name = "Alice Johnson";
                 returnJson.age = 28;
@@ -57,8 +57,8 @@ namespace WebApplication5.Controllers
                 addrfffffess.city = "Los Angeles";
                 returnJson.address = addrfffffess;
 
-
                 json = JsonConvert.SerializeObject(returnJson);
+
 
             }
             catch (Exception ex)
@@ -66,7 +66,7 @@ namespace WebApplication5.Controllers
                 logger.Error($"Exception {ex.Message} ");
             }
 
-            return json;
+            return returnJson;
         }
 
         // PUT api/values/5
